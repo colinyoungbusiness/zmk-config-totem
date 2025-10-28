@@ -174,5 +174,16 @@
                                  &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
+
+        ARTSEY_LAYER {
+            bindings = <
+        &kp A   &kp R   &kp T      &kp S      &kp PG_UP    &trans     &kp A     &kp R     &kp T   &kp S
+        &kp E   &kp Y   &kp I      &kp O      &kp PG_DN    &trans     &kp E     &kp Y     &kp I   &kp O
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans    &trans    &trans  &trans  &trans
+                        &kp LCTRL  &kp SPACE  &kp BSPC     &kp LSHFT  &kp LALT  &kp LGUI
+            >;
+
+            label = "ART_BASE";
+        };
     };
 };
