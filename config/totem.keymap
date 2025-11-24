@@ -56,6 +56,11 @@
             key-positions = <1 2 3>;
             timeout-ms = <100>;
         };
+
+        qwerty {
+            bindings = <&tog 1>;
+            key-positions = <0 1 2 3>;
+        };
     };
 
     macros {
