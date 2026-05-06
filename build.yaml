@@ -1,4 +1,4 @@
 include:
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: artsey_foundry
 # there is no settingsreset (needed) for the XIAO
