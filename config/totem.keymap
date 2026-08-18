@@ -40,7 +40,7 @@
         QWERTY {
             bindings = <&tog 1>;
             key-positions = <1 2 3>;
-            layers = <0>;
+            layers = <0 1>;
         };
     };
 
