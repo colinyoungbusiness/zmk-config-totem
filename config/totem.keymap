@@ -558,6 +558,18 @@
             key-positions = <35 31>;
             layers = <5>;
         };
+
+        panic {
+            bindings = <&to 5>;
+            key-positions = <32 20>;
+            layers = <10 11>;
+        };
+
+        Rpanic {
+            bindings = <&to 5>;
+            key-positions = <37 31>;
+            layers = <10 11>;
+        };
     };
 
     keymap {
