@@ -39,7 +39,7 @@
 
         QWERTY {
             bindings = <&tog 1>;
-            key-positions = <1 2 3>;
+            key-positions = <2 3 1>;
             layers = <0 1>;
         };
 
@@ -513,7 +513,7 @@
 
         Lartsey_Nav {
             bindings = <&tog 11>;
-            key-positions = <1 10 12>;
+            key-positions = <2 11 13>;
             layers = <5 11>;
         };
 
@@ -525,7 +525,7 @@
 
         Lartsey_Mou {
             bindings = <&tog 10>;
-            key-positions = <0 2 11>;
+            key-positions = <3 1 12>;
             layers = <5 10>;
         };
 
