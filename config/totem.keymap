@@ -403,6 +403,138 @@
             layers = <5>;
         };
 
+        Lartsey_OS_Shift {
+            bindings = <&sk LSHIFT>;
+            key-positions = <10 1 2 3>;
+            layers = <5>;
+        };
+
+        Rartsey_OS_Shift {
+            bindings = <&sk LSHIFT>;
+            key-positions = <16 7 8 9>;
+            layers = <5>;
+        };
+
+        Lartsey_Ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <3 10>;
+            layers = <5 9 10>;
+        };
+
+        Rartsey_Ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <9 16>;
+            layers = <5 9 10>;
+        };
+
+        Lartsey_Gui {
+            bindings = <&kp LGUI>;
+            key-positions = <3 11>;
+            layers = <5 9 10>;
+        };
+
+        Rartsey_Gui {
+            bindings = <&kp LGUI>;
+            key-positions = <9 17>;
+            layers = <5 9 10>;
+        };
+
+        Lartsey_Alt {
+            bindings = <&kp LALT>;
+            key-positions = <3 12>;
+            layers = <5 9 10>;
+        };
+
+        Rartsey_Alt {
+            bindings = <&kp LALT>;
+            key-positions = <9 18>;
+            layers = <5 9 10>;
+        };
+
+        Lartsey_Shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <0 11 12 13>;
+            layers = <5 10>;
+        };
+
+        Rartsey_Shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <6 17 18 19>;
+            layers = <5 10>;
+        };
+
+        Lartsey_7 {
+            bindings = <&kp N7>;
+            key-positions = <1 0>;
+            layers = <6>;
+        };
+
+        Rartsey_7 {
+            bindings = <&kp N7>;
+            key-positions = <7 6>;
+            layers = <6>;
+        };
+
+        Lartsey_8 {
+            bindings = <&kp N8>;
+            key-positions = <2 1>;
+            layers = <6>;
+        };
+
+        Rartsey_8 {
+            bindings = <&kp N8>;
+            key-positions = <8 7>;
+            layers = <6>;
+        };
+
+        Lartsey_9 {
+            bindings = <&kp N9>;
+            key-positions = <11 10>;
+            layers = <6>;
+        };
+
+        Rartsey_9 {
+            bindings = <&kp N9>;
+            key-positions = <17 16>;
+            layers = <6>;
+        };
+
+        Lartsey_0 {
+            bindings = <&kp N0>;
+            key-positions = <12 11>;
+            layers = <6>;
+        };
+
+        Rartsey_0 {
+            bindings = <&kp N0>;
+            key-positions = <18 17>;
+            layers = <6>;
+        };
+
+        Lartsey_Nav {
+            bindings = <&tog 10>;
+            key-positions = <1 10 12>;
+            layers = <5 10>;
+        };
+
+        Rartsey_Nav {
+            bindings = <&tog 10>;
+            key-positions = <7 16 18>;
+            layers = <5 10>;
+        };
+
+        Lartsey_Mou {
+            bindings = <&tog 9>;
+            key-positions = <0 2 11>;
+            layers = <5 9>;
+        };
+
+        Rartsey_Mou {
+            bindings = <&tog 9>;
+            key-positions = <6 8 17>;
+            layers = <5 9>;
+        };
+
         artsey_base {
             bindings = <&to 5>;
             key-positions = <20 34>;
