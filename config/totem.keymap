@@ -418,37 +418,37 @@
         Lartsey_Ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <3 10>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Rartsey_Ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <9 16>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Lartsey_Gui {
             bindings = <&kp LGUI>;
             key-positions = <3 11>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Rartsey_Gui {
             bindings = <&kp LGUI>;
             key-positions = <9 17>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Lartsey_Alt {
             bindings = <&kp LALT>;
             key-positions = <3 12>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Rartsey_Alt {
             bindings = <&kp LALT>;
             key-positions = <9 18>;
-            layers = <5 9 11>;
+            layers = <5 10 11>;
         };
 
         Lartsey_Shift {
