@@ -42,6 +42,30 @@
             key-positions = <1 2 3>;
             layers = <0 1>;
         };
+
+        Lartsey_H {
+            bindings = <&kp H>;
+            key-positions = <10 12>;
+            layers = <5>;
+        };
+
+        Rartsey_H {
+            bindings = <&kp H>;
+            key-positions = <16 18>;
+            layers = <5>;
+        };
+
+        Lartsey_Q {
+            bindings = <&kp Q>;
+            key-positions = <0 2 3>;
+            layers = <5>;
+        };
+
+        Rartsey_Q {
+            bindings = <&kp Q>;
+            key-positions = <6 8 9>;
+            layers = <5>;
+        };
     };
 
     keymap {
