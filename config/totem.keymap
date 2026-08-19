@@ -402,6 +402,30 @@
             key-positions = <6 7 8 19>;
             layers = <5>;
         };
+
+        artsey_base {
+            bindings = <&to 5>;
+            key-positions = <20 34>;
+            layers = <0 1>;
+        };
+
+        Rartsey_base {
+            bindings = <&to 5>;
+            key-positions = <35 31>;
+            layers = <0 1>;
+        };
+
+        Lto_cole {
+            bindings = <&to 0>;
+            key-positions = <34 20>;
+            layers = <5>;
+        };
+
+        Rto_cole {
+            bindings = <&to 0>;
+            key-positions = <35 31>;
+            layers = <5>;
+        };
     };
 
     keymap {
