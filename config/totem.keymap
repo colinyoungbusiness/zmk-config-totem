@@ -685,10 +685,10 @@
 
         artsey_base {
             bindings = <
-        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S    &kp TAB      &kp TAB    &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S
-        &lt 7 E    &kp Y      &lt 14 I   &lt 8 O    &trans       &trans     &lt 7 E    &kp Y      &lt 14 I   &lt 8 O
-&trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp SPACE  &kp LGUI     &kp RGUI   &kp SPACE  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans
-                              &kp LALT   &kp LSHFT  &kp LCTRL    &kp LCTRL  &kp LSHFT  &kp RALT
+        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S    &kp TAB          &kp TAB        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S
+        &lt 7 E    &kp Y      &lt 14 I   &lt 8 O    &kp BACKSPACE    &kp BACKSPACE  &lt 7 E    &kp Y      &lt 14 I   &lt 8 O
+&trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp SPACE  &kp LGUI         &kp RGUI       &kp SPACE  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans
+                              &kp LALT   &kp LSHFT  &kp LCTRL        &kp LCTRL      &kp LSHFT  &kp RALT
             >;
 
             label = "ART_BASE";
