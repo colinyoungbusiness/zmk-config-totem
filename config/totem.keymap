@@ -611,7 +611,7 @@
             >;
         };
 
-        QWERTY_layer {
+        qwerty_layer {
             label = "QWERT";
             bindings = <
                &kp Q           &kp W           &kp E        &kp R             &kp T            &kp Y      &kp U             &kp I        &kp O           &kp P
@@ -797,6 +797,26 @@
         &kp LG(LEFT_ARROW)      &kp LG(RIGHT)      &trans    &kp LG(DOWN_ARROW)  &trans       &trans     &kp LG(LEFT_ARROW)      &kp LG(RIGHT)      &trans   &kp LG(DOWN)
 &kp F9  &kp F10                 &kp F11            &kp F12   &kp F13             &kp LGUI     &kp RGUI   &kp F9                  &kp F10            &kp F11  &kp F12           &kp F13
                                                    &kp LALT  &kp LSHFT           &kp LCTRL    &kp LCTRL  &kp LSHFT               &kp RALT
+            >;
+        };
+
+        game1_layer {
+            label = "GAME1";
+            bindings = <
+            &kp TAB    &kp Q  &kp X         &kp E         &kp R        &kp U      &kp I          &kp SLASH     &kp O      &kp P
+            &kp LSHFT  &kp A  &kp W         &kp D         &kp F        &kp J      &kp LEFT       &kp UP_ARROW  &kp RIGHT  &kp K
+&kp ESCAPE  &kp LCTRL  &kp Z  &kp S         &kp C         &kp V        &kp COMMA  &kp DOT        &kp DOWN      &kp SEMI   &kp SQT  &kp L
+                              &lt 16 ENTER  &kp LEFT_ALT  &kp SPACE    &kp N0     &kp RIGHT_ALT  &lt 16 ENTER
+            >;
+        };
+
+        game2_layer {
+            label = "GAME2";
+            bindings = <
+       &kp Y  &kp N1  &kp N2  &kp N3  &kp T     &kp T   &kp N1  &kp N2  &kp N3  &kp Y
+       &kp H  &kp N4  &kp N5  &kp N6  &kp G     &kp G   &kp N4  &kp N5  &kp N6  &kp G
+&kp M  &kp N  &kp N7  &kp N8  &kp N9  &kp B     &kp B   &kp N7  &kp N8  &kp N9  &kp B  &kp M
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
