@@ -571,7 +571,7 @@
             layers = <5 6 7 8 9 10 11 12 13 14>;
         };
 
-        home {
+        Lhome {
             bindings = <&to 0>;
             key-positions = <33 20>;
         };
@@ -579,6 +579,16 @@
         Rhome {
             bindings = <&to 0>;
             key-positions = <36 31>;
+        };
+
+        Lgame {
+            bindings = <&to 15>;
+            key-positions = <20 4>;
+        };
+
+        Rgame {
+            bindings = <&to 15>;
+            key-positions = <5 31>;
         };
     };
 
