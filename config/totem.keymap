@@ -813,10 +813,10 @@
         game1_layer {
             label = "GAME1";
             bindings = <
-            &kp TAB    &kp Q  &kp X         &kp E         &kp R        &kp U      &kp I          &kp SLASH     &kp O      &kp P
-            &kp LSHFT  &kp A  &kp W         &kp D         &kp F        &kp J      &kp LEFT       &kp UP_ARROW  &kp RIGHT  &kp K
-&kp ESCAPE  &kp LCTRL  &kp Z  &kp S         &kp C         &kp V        &kp COMMA  &kp DOT        &kp DOWN      &kp SEMI   &kp SQT  &kp L
-                              &lt 16 ENTER  &kp LEFT_ALT  &kp SPACE    &kp N0     &kp RIGHT_ALT  &lt 16 ENTER
+            &kp TAB    &kp Q  &kp X      &kp E            &kp R        &kp U      &kp I             &kp SLASH     &kp O      &kp P
+            &kp LSHFT  &kp A  &kp W      &kp D            &kp F        &kp J      &kp LEFT          &kp UP_ARROW  &kp RIGHT  &kp K
+&kp ESCAPE  &kp LCTRL  &kp Z  &kp S      &kp C            &kp V        &kp COMMA  &kp DOT           &kp DOWN      &kp SEMI   &kp SQT  &kp L
+                              &kp ENTER  &lt 16 LEFT_ALT  &kp SPACE    &kp N0     &lt 16 RIGHT_ALT  &kp ENTER
             >;
         };
 
