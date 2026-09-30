@@ -570,6 +570,26 @@
             key-positions = <37 31>;
             layers = <5 6 7 8 9 10 11 12 13 14>;
         };
+
+        Lhome {
+            bindings = <&to 0>;
+            key-positions = <33 20>;
+        };
+
+        Rhome {
+            bindings = <&to 0>;
+            key-positions = <36 31>;
+        };
+
+        Lgame {
+            bindings = <&to 15>;
+            key-positions = <20 4>;
+        };
+
+        Rgame {
+            bindings = <&to 15>;
+            key-positions = <5 31>;
+        };
     };
 
     keymap {
@@ -601,7 +621,7 @@
             >;
         };
 
-        QWERTY_layer {
+        qwerty_layer {
             label = "QWERT";
             bindings = <
                &kp Q           &kp W           &kp E        &kp R             &kp T            &kp Y      &kp U             &kp I        &kp O           &kp P
@@ -652,9 +672,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp EXCL          &kp AT      &kp HASH           &kp DLLR         &kp PRCNT        &kp CARET             &kp AMPS              &kp ASTERISK     &kp SQT                   &kp DQT
-              &kp GRAVE         &kp TILDE   &kp MINUS          &kp UNDERSCORE   &kp BACKSLASH    &kp SLASH             &kp PIPE              &kp LESS_THAN    &kp GREATER_THAN          &kp COLON
-&kp CAPSLOCK  &kp C_PLAY_PAUSE  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_MAXIMUM  &kp INSERT
+              &kp EXCL          &kp AT      &kp HASH           &kp DLLR         &kp PRCNT        &kp CARET             &kp AMPS              &kp ASTERISK     &kp SQT           &kp DQT
+              &kp GRAVE         &kp TILDE   &kp MINUS          &kp UNDERSCORE   &kp BACKSLASH    &kp SLASH             &kp PIPE              &kp LESS_THAN    &kp GREATER_THAN  &kp COLON
+&kp CAPSLOCK  &kp C_PLAY_PAUSE  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &kp C_PREV        &kp C_NEXT  &kp INSERT
                                             &trans             &trans           &mo 4            &trans                &trans                &trans
             >;
         };
@@ -685,10 +705,10 @@
 
         artsey_base {
             bindings = <
-        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S    &kp TAB          &kp TAB        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S
-        &lt 7 E    &kp Y      &lt 14 I   &lt 8 O    &kp BACKSPACE    &kp BACKSPACE  &lt 7 E    &kp Y      &lt 14 I   &lt 8 O
-&trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp SPACE  &kp LGUI         &kp RGUI       &kp SPACE  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans
-                              &kp LALT   &kp LSHFT  &kp LCTRL        &kp LCTRL      &kp LSHFT  &kp RALT
+        &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S    &kp TAB                &kp TAB              &lt 9 A    &lt 13 R   &lt 12 T   &lt 6 S
+        &lt 7 E    &kp Y      &lt 14 I   &lt 8 O    &kp BACKSPACE          &kp BACKSPACE        &lt 7 E    &kp Y      &lt 14 I   &lt 8 O
+&trans  &kp LC(C)  &kp LC(V)  &kp LC(X)  &kp SPACE  &kp LGUI               &kp RGUI             &kp SPACE  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans
+                              &kp LALT   &kp LSHFT  &mt LCTRL BACKSPACE    &mt LCTRL BACKSPACE  &kp LSHFT  &kp RALT
             >;
 
             label = "ART_BASE";
@@ -718,7 +738,7 @@
 
         artsey_cus {
             bindings = <
-               &kp C_PLAY_PAUSE      &kp K_MUTE    &kp C_VOLUME_UP           &trans     &trans       &trans     &kp C_PLAY_PAUSE      &kp K_MUTE    &kp C_VOLUME_UP           &trans
+               &kp C_PLAY_PAUSE      &kp C_MUTE    &kp C_VOLUME_UP           &trans     &trans       &trans     &kp C_PLAY_PAUSE      &kp C_MUTE    &kp C_VOLUME_UP           &trans
                &kp C_PREVIOUS        &kp C_NEXT    &kp C_VOL_DN              &trans     &trans       &trans     &kp N4                &kp N5        &kp C_VOL_DN              &trans
 &kp C_BRI_MIN  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp C_BRIGHTNESS_MAXIMUM  &trans     &kp LGUI     &kp RGUI   &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp C_BRIGHTNESS_MAXIMUM  &trans  &kp C_BRIGHTNESS_MINIMUM
                                                    &kp LALT                  &kp LSHFT  &kp LCTRL    &kp LCTRL  &kp LSHFT             &kp RALT
@@ -787,6 +807,26 @@
         &kp LG(LEFT_ARROW)      &kp LG(RIGHT)      &trans    &kp LG(DOWN_ARROW)  &trans       &trans     &kp LG(LEFT_ARROW)      &kp LG(RIGHT)      &trans   &kp LG(DOWN)
 &kp F9  &kp F10                 &kp F11            &kp F12   &kp F13             &kp LGUI     &kp RGUI   &kp F9                  &kp F10            &kp F11  &kp F12           &kp F13
                                                    &kp LALT  &kp LSHFT           &kp LCTRL    &kp LCTRL  &kp LSHFT               &kp RALT
+            >;
+        };
+
+        game1_layer {
+            label = "GAME1";
+            bindings = <
+            &kp TAB    &kp Q  &kp X      &kp E            &kp R        &kp U      &kp I             &kp SLASH     &kp O      &kp P
+            &kp LSHFT  &kp A  &kp W      &kp D            &kp F        &kp J      &kp LEFT          &kp UP_ARROW  &kp RIGHT  &kp K
+&kp ESCAPE  &kp LCTRL  &kp Z  &kp S      &kp C            &kp V        &kp COMMA  &kp DOT           &kp DOWN      &kp SEMI   &kp SQT  &kp L
+                              &kp ENTER  &lt 16 LEFT_ALT  &kp SPACE    &kp N0     &lt 16 RIGHT_ALT  &kp ENTER
+            >;
+        };
+
+        game2_layer {
+            label = "GAME2";
+            bindings = <
+       &kp Y  &kp N1  &kp N2  &kp N3  &kp T     &kp T   &kp N1  &kp N2  &kp N3  &kp Y
+       &kp H  &kp N4  &kp N5  &kp N6  &kp G     &kp G   &kp N4  &kp N5  &kp N6  &kp G
+&kp M  &kp N  &kp N7  &kp N8  &kp N9  &kp B     &kp B   &kp N7  &kp N8  &kp N9  &kp B  &kp M
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
