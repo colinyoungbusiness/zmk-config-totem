@@ -650,7 +650,7 @@
             bindings = <
             &kp ESC    &kp HOME   &kp KP_NUMLOCK  &kp END    &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8     &kp KP_N9  &kp KP_PLUS
             &kp LSHFT  &kp LEFT   &kp UP_ARROW    &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5     &kp KP_N6  &kp KP_MINUS
-&caps_word  &kp LCTRL  &kp PG_UP  &kp DOWN        &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2     &kp KP_N3  &kp KP_MULTIPLY  &kp EQUAL
+&caps_word  &kp LCTRL  &kp PG_UP  &kp DOWN        &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2     &kp KP_N3  &kp KP_MULTIPLY  &kp SLASH
                                   &trans          &trans     &trans      &mo 4     &kp KP_N0  &kp LEFT_ALT
             >;
         };
@@ -673,7 +673,7 @@
 
             bindings = <
               &kp EXCL          &kp AT      &kp HASH           &kp DLLR         &kp PRCNT        &kp CARET             &kp AMPS              &kp ASTERISK     &kp SQT           &kp DQT
-              &kp GRAVE         &kp TILDE   &kp MINUS          &kp UNDERSCORE   &kp BACKSLASH    &kp SLASH             &kp PIPE              &kp LESS_THAN    &kp GREATER_THAN  &kp COLON
+              &kp GRAVE         &kp TILDE   &kp MINUS          &kp UNDERSCORE   &kp BACKSLASH    &kp SLASH             &kp PIPE              &kp EQUAL        &kp GREATER_THAN  &kp COLON
 &kp CAPSLOCK  &kp C_PLAY_PAUSE  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &kp C_PREV        &kp C_NEXT  &kp INSERT
                                             &trans             &trans           &mo 4            &trans                &trans                &trans
             >;
