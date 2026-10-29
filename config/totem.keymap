@@ -648,10 +648,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp ESC       &kp HOME   &kp KP_NUMLOCK  &kp END    &kp LBRC                &kp RBRC           &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_NUMBER_0
-              &kp LSHFT     &kp LEFT   &kp UP_ARROW    &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RPAR           &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&kp LEFT_GUI  &kp LEFT_ALT  &kp PG_UP  &kp DOWN        &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp SLASH
-                                       &trans          &trans     &trans                  &kp LCTRL          &mo 4      &trans
+              &kp ESC       &kp HOME   &kp KP_NUMLOCK  &kp END    &kp LBRC                &kp RBRC               &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp PLUS
+              &kp LSHFT     &kp LEFT   &kp UP_ARROW    &kp RIGHT  &kp LEFT_PARENTHESIS    &kp RPAR               &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp LEFT_GUI  &kp LEFT_ALT  &kp PG_UP  &kp DOWN        &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp SLASH
+                                       &trans          &trans     &trans                  &mt LCTRL KP_NUMBER_0  &mo 4      &trans
             >;
         };
 
